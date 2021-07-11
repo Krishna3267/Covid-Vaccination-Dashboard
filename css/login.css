@@ -1,0 +1,101 @@
+*{
+	margin: 0;
+	padding : 0;
+	font-family: sans-serif;
+}
+
+ 
+
+.first{
+
+	height: 100%;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+}
+ 
+
+.formbox{
+	width: 380px;
+	height: 400px;
+	position: relative;
+	margin: 6% auto;
+	background-color: #e6ffff;
+	padding: 5px;
+	overflow: hidden;
+}
+
+.button-box{
+	width: 208px;
+	margin: 35px auto;
+	position: relative;
+	border: 3px solid #00cccc; 
+	border-radius: 30px;
+
+}
+
+.toggle{
+	padding: 10px 30px;
+	cursor: pointer;
+	background: transparent;
+	border: 0;
+	outline: none;
+	position: relative;
+
+}
+
+#bttn{
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 110px;
+	height: 100%;
+	background:#00cccc;
+	border-radius: 30px;
+	transition: 0.5s;
+}
+
+.input-group{
+	top: 180;
+	position: absolute;
+	width: 280px;
+	transition: 0.5s;
+	padding: 5px 5px;
+
+}
+
+.input{
+	width: 100%;
+	padding: 10px 5px;
+	margin: 5px 0;
+	border-left: 0;
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 1px solid #999;
+	background: transparent;
+
+
+}
+
+.sb{
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin-top: 10%;
+	background:#00cccc;
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+}
+
+ 
+#login{
+	left: 50px;
+
+}
+
+#Register{
+	left:450px;
+}
